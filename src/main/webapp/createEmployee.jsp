@@ -45,10 +45,10 @@
     
     <form action="createEmployeeServlet" method="post">
         <label for="firstName">First Name:</label>
-        <input type="text" name="firstName" required>
+        <input id="firstname" type="text" name="firstName" required>
         
         <label for="lastName">Last Name:</label>
-        <input type="text" name="lastName" required>
+        <input id="lastname" type="text" name="lastName" required>
         
         <input type="submit" value="Create Employee">
     </form>
